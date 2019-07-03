@@ -1,0 +1,18 @@
+{
+  "name": "project1",
+  "description": "A Node-RED Project",
+  "version": "0.0.1",
+  "dependencies": {
+      "node-red": "0.20.6",
+      "node-red-contrib-unsafe-function": "0.7.0",
+  },
+  "scripts": {
+      "start": "node_modules/node-red/red.js -u ."
+  },
+  "node-red": {
+      "settings": {
+          "flowFile": "flow.json",
+          "credentialsFile": "flow_cred.json"
+      }
+  }
+}
